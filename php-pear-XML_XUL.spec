@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       XUL
+%define		_class		XML
+%define		_subclass	XUL
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Class to build Mozilla XUL applications.
-Summary(pl):	%{_pearname} - Klasa to budowania aplikacji Mozilli w XUL
+Summary:	%{_pearname} - class to build Mozilla XUL applications
+Summary(pl):	%{_pearname} - klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
 Release:	1
