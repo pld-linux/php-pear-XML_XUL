@@ -27,7 +27,7 @@ to DOM to create XUL applications. There's a PHP object for each XUL
 element, and the more complex widgets like grids, trees and tabboxes can
 easily be created with these objects.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Jêzyk Interfejsu U¿ytkownika w XML (XML User Interface Language lub XUL)
