@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Class to build Mozilla XUL applications.
-#Summary(pl):	%{_pearname} -
+Summary(pl):	%{_pearname} - Klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
 Release:	1
@@ -29,10 +29,17 @@ easily be created with these objects.
 
 This class has in PEAR status: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Jêzyk Interfejsu U¿ytkownika w XML (XML User Interface Language lub XUL)
+jest korzystaj±cym ze znaczników jêzykiem do opisu interfejsu
+u¿ytkownika. Z pomoc± XUL mo¿liwe jest ³atwe stworzenie rozbudowanych
+miêdzyplatformowych aplikacji internetowych. XML_XUL dostarcza API
+zbli¿onego do DOM w celu tworzeniu aplikacji XUL. Dla ka¿dego elementu
+XUL istnieje obiekt PHP, a bardziej z³o¿one widgety takie jak siatki,
+drzewa czy okna z zak³adkami mog± byæ stworzone w³a¶nie za pomoc± tych
+obiektów
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
