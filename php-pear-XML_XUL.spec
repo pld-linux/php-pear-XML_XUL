@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - class to build Mozilla XUL applications
 Summary(pl):	%{_pearname} - klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{_pearname}
-Version:	0.8.0
+Version:	0.8.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e0fb9b17b549cdd9e25da03c84c7d11b
+# Source0-md5:	1b3e47574868455b98bd66a4507d032b
 URL:		http://pear.php.net/package/XML_XUL/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
