@@ -16,7 +16,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/XML_XUL/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
-Requires:	php-pear-PEAR
+Requires:	php-pear-PEAR-core
 Requires:	php-pear-XML_Parser >= 1.1.0
 Requires:	php-pear-XML_Util >= 0.5.2
 BuildArch:	noarch
@@ -24,17 +24,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The XML User Interface Language (XUL) is a markup language for
-describing user interfaces. With XUL you can create rich, sophisticated
-cross-platform web applications easily. XML_XUL provides a API similar
-to DOM to create XUL applications. There's a PHP object for each XUL
-element, and the more complex widgets like grids, trees and tabboxes can
-easily be created with these objects.
+describing user interfaces. With XUL you can create rich,
+sophisticated cross-platform web applications easily. XML_XUL provides
+a API similar to DOM to create XUL applications. There's a PHP object
+for each XUL element, and the more complex widgets like grids, trees
+and tabboxes can easily be created with these objects.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Jêzyk Interfejsu U¿ytkownika w XML (XML User Interface Language lub XUL)
-jest korzystaj±cym ze znaczników jêzykiem do opisu interfejsu
+Jêzyk Interfejsu U¿ytkownika w XML (XML User Interface Language lub
+XUL) jest korzystaj±cym ze znaczników jêzykiem do opisu interfejsu
 u¿ytkownika. Z pomoc± XUL mo¿liwe jest ³atwe stworzenie rozbudowanych
 miêdzyplatformowych aplikacji internetowych. XML_XUL dostarcza API
 zbli¿onego do DOM w celu tworzeniu aplikacji XUL. Dla ka¿dego elementu
