@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	d9bd9c96613245a0463e658b3d7fb4df
 URL:		http://pear.php.net/package/XML_XUL/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-PEAR-core
