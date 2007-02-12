@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - class to build Mozilla XUL applications
-Summary(pl.UTF-8):   %{_pearname} - klasa to budowania aplikacji Mozilli w XUL
+Summary(pl.UTF-8):	%{_pearname} - klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{_pearname}
 Version:	0.8.2
 Release:	3
