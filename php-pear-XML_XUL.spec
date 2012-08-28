@@ -1,22 +1,19 @@
+%define		status		alpha
+%define		pearname	XML_XUL
 %include	/usr/lib/rpm/macros.php
-%define		_class		XML
-%define		_subclass	XUL
-%define		_status		alpha
-%define		_pearname	%{_class}_%{_subclass}
-
-Summary:	%{_pearname} - class to build Mozilla XUL applications
-Summary(pl.UTF-8):	%{_pearname} - klasa to budowania aplikacji Mozilli w XUL
-Name:		php-pear-%{_pearname}
-Version:	0.8.3
-Release:	2
+Summary:	%{pearname} - class to build Mozilla XUL applications
+Summary(pl.UTF-8):	%{pearname} - klasa to budowania aplikacji Mozilli w XUL
+Name:		php-pear-%{pearname}
+Version:	0.9.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	b0ad080f69ce30f9384594c022aa486d
+Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
+# Source0-md5:	ba835b36572b0afee9248e2e9874eb93
 URL:		http://pear.php.net/package/XML_XUL/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	rpmbuild(macros) >= 1.580
 Requires:	php-pear
 Requires:	php-pear-PEAR-core
 Requires:	php-pear-XML_Parser >= 1.1.0
@@ -32,7 +29,7 @@ a API similar to DOM to create XUL applications. There's a PHP object
 for each XUL element, and the more complex widgets like grids, trees
 and tabboxes can easily be created with these objects.
 
-In PEAR status of this package is: %{_status}.
+In PEAR status of this package is: %{status}.
 
 %description -l pl.UTF-8
 Język Interfejsu Użytkownika w XML (XML User Interface Language lub
@@ -44,7 +41,7 @@ XUL istnieje obiekt PHP, a bardziej złożone widgety takie jak siatki,
 drzewa czy okna z zakładkami mogą być stworzone właśnie za pomocą tych
 obiektów
 
-Ta klasa ma w PEAR status: %{_status}.
+Ta klasa ma w PEAR status: %{status}.
 
 %prep
 %pear_package_setup
@@ -60,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc install.log
-%doc docs/%{_pearname}/*
+%doc docs/%{pearname}/*
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}
+%{php_pear_dir}/XML/*.php
+%{php_pear_dir}/XML/XUL
