@@ -5,7 +5,7 @@ Summary:	%{pearname} - class to build Mozilla XUL applications
 Summary(pl.UTF-8):	%{pearname} - klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{pearname}
 Version:	0.9.0
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
