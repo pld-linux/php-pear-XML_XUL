@@ -1,6 +1,5 @@
 %define		status		alpha
 %define		pearname	XML_XUL
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - class to build Mozilla XUL applications
 Summary(pl.UTF-8):	%{pearname} - klasa to budowania aplikacji Mozilli w XUL
 Name:		php-pear-%{pearname}
